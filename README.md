@@ -1,13 +1,11 @@
 <div align="center">
-<br>
-<img src="https://user-images.githubusercontent.com/12294525/44203609-77d50800-a147-11e8-98f0-f2403527abdc.png" width="600px" />
-
+  <h1>Odrerir</h1>
 </div>
 
 <br>
 
 <p align="center">
-A boilerplate for Scalable Cross-Platform Desktop Apps based on  <a href="http://electron.atom.io/">Electron</a>, <a href="https://facebook.github.io/react/">React</a>, <a href="https://github.com/reactjs/redux">Redux</a>, <a href="https://github.com/reactjs/react-router">React Router</a>, <a href="http://webpack.github.io/docs/">Webpack</a> and <a href="https://github.com/gaearon/react-transform-hmr">React Transform HMR</a> for rapid application development.
+The companion app for Odrerir, Loki Engineering's first ever MIDI controller. (Still in development)
 </p>
 
 <div align="center">
@@ -19,18 +17,6 @@ A boilerplate for Scalable Cross-Platform Desktop Apps based on  <a href="http:/
 
 <br>
 
-<div align="center">
-
-<a href="https://facebook.github.io/react/"><img src="./internals/img/react-padded-90.png" /></a>
-<a href="https://webpack.github.io/"><img src="./internals/img/webpack-padded-90.png" /></a>
-<a href="http://redux.js.org/"><img src="./internals/img/redux-padded-90.png" /></a>
-<a href="https://github.com/ReactTraining/react-router"><img src="./internals/img/react-router-padded-90.png" /></a>
-<a href="https://flowtype.org/"><img src="./internals/img/flow-padded-90.png" /></a>
-<a href="http://eslint.org/"><img src="./internals/img/eslint-padded-90.png" /></a>
-<a href="https://facebook.github.io/jest/"><img src="./internals/img/jest-padded-90.png" /></a>
-<a href="https://yarnpkg.com/"><img src="./internals/img/yarn-padded-90.png" /></a>
-</div>
-
 <hr>
 <br>
 
@@ -40,24 +26,20 @@ A boilerplate for Scalable Cross-Platform Desktop Apps based on  <a href="http:/
 [![Appveyor Build Status][appveyor-image]][appveyor-url]
 [![Dependency Status][david_img]][david_site]
 [![Github Tag][github-tag-image]][github-tag-url]
-[![Join the chat at https://gitter.im/electron-react-boilerplate/Lobby](https://badges.gitter.im/electron-react-boilerplate/Lobby.svg)](https://gitter.im/electron-react-boilerplate/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![OpenCollective](https://opencollective.com/electron-react-boilerplate/backers/badge.svg)](#backers)
-[![OpenCollective](https://opencollective.com/electron-react-boilerplate/sponsors/badge.svg)](#sponsors)
+[![Join the chat at https://gitter.im/odrerir-app/Lobby](https://badges.gitter.im/odrerir-app/Lobby.svg)](https://gitter.im/odrerir-app/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![OpenCollective](https://opencollective.com/odrerir-app/backers/badge.svg)](#backers)
+[![OpenCollective](https://opencollective.com/odrerir-app/sponsors/badge.svg)](#sponsors)
+
 </div>
 
-<div align="center">
+## Developer Install
 
-![Electron Boilerplate Demo](https://cloud.githubusercontent.com/assets/3382565/10557547/b1f07a4e-74e3-11e5-8d27-79ab6947d429.gif)
-</div>
-
-## Install
-
-- **If you have installation or compilation issues with this project, please see [our debugging guide](https://github.com/chentsulin/electron-react-boilerplate/issues/400)**
+- **If you have installation or compilation issues with this project, please see [our debugging guide](https://github.com/lokiengineering/odrerir-app/issues/400)**
 
 First, clone the repo via git:
 
 ```bash
-git clone --depth=1 https://github.com/chentsulin/electron-react-boilerplate.git your-project-name
+git clone https://github.com/lokiengineering/odrerir-app.git
 ```
 
 And then install dependencies with yarn.
@@ -149,7 +131,7 @@ This boilerplate uses a [two package.json structure](https://github.com/electron
 
 ### Further Readings
 
-See the wiki page, [Module Structure — Two package.json Structure](https://github.com/chentsulin/electron-react-boilerplate/wiki/Module-Structure----Two-package.json-Structure) to understand what is native module, the rationale behind two package.json structure and more.
+See the wiki page, [Module Structure — Two package.json Structure](https://github.com/lokiengineering/odrerir-app/wiki/Module-Structure----Two-package.json-Structure) to understand what is native module, the rationale behind two package.json structure and more.
 
 For an example app that uses this boilerplate and packages native dependencies, see [erb-sqlite-example](https://github.com/amilajack/erb-sqlite-example).
 
@@ -182,14 +164,14 @@ This project comes with Flow support out of the box! You can annotate your code 
 
 ## Dispatching redux actions from main process
 
-See [#118](https://github.com/chentsulin/electron-react-boilerplate/issues/118) and [#108](https://github.com/chentsulin/electron-react-boilerplate/issues/108)
+See [#118](https://github.com/lokiengineering/odrerir-app/issues/118) and [#108](https://github.com/lokiengineering/odrerir-app/issues/108)
 
 ## How to keep your project updated with the boilerplate
 
 If your application is a fork from this repo, you can add this repo to another git remote:
 
 ```sh
-git remote add upstream https://github.com/chentsulin/electron-react-boilerplate.git
+git remote add upstream https://github.com/lokiengineering/odrerir-app.git
 ```
 
 Then, use git to merge some latest commits:
@@ -200,90 +182,88 @@ git pull upstream master
 
 ## Maintainers
 
-- [C. T. Lin](https://github.com/chentsulin)
-- [Jhen-Jie Hong](https://github.com/jhen0409)
-- [Amila Welihinda](https://github.com/amilajack)
+- [Oz Haven](https://github.com/therebelrobot)
 
 ## Backers
 
-Support us with a monthly donation and help us continue our activities. [[Become a backer](https://opencollective.com/electron-react-boilerplate#backer)]
+Support us with a monthly donation and help us continue our activities. [[Become a backer](https://opencollective.com/odrerir-app#backer)]
 
-<a href="https://opencollective.com/electron-react-boilerplate/backer/0/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/0/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/1/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/1/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/2/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/2/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/3/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/3/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/4/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/4/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/5/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/5/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/6/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/6/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/7/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/7/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/8/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/8/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/9/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/9/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/10/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/10/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/11/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/11/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/12/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/12/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/13/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/13/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/14/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/14/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/15/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/15/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/16/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/16/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/17/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/17/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/18/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/18/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/19/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/19/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/20/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/20/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/21/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/21/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/22/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/22/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/23/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/23/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/24/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/24/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/25/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/25/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/26/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/26/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/27/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/27/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/28/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/28/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/backer/29/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/backer/29/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/0/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/0/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/1/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/1/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/2/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/2/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/3/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/3/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/4/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/4/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/5/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/5/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/6/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/6/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/7/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/7/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/8/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/8/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/9/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/9/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/10/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/10/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/11/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/11/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/12/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/12/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/13/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/13/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/14/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/14/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/15/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/15/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/16/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/16/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/17/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/17/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/18/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/18/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/19/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/19/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/20/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/20/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/21/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/21/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/22/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/22/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/23/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/23/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/24/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/24/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/25/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/25/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/26/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/26/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/27/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/27/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/28/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/28/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/backer/29/website" target="_blank"><img src="https://opencollective.com/odrerir-app/backer/29/avatar.svg"></a>
 
 ## Sponsors
 
-Become a sponsor and get your logo on our README on Github with a link to your site. [[Become a sponsor](https://opencollective.com/electron-react-boilerplate#sponsor)]
+Become a sponsor and get your logo on our README on Github with a link to your site. [[Become a sponsor](https://opencollective.com/odrerir-app#sponsor)]
 
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/0/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/1/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/2/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/3/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/4/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/5/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/6/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/7/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/8/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/9/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/9/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/10/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/10/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/11/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/11/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/12/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/12/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/13/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/13/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/14/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/14/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/15/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/15/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/16/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/16/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/17/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/17/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/18/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/18/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/19/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/19/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/20/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/20/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/21/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/21/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/22/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/22/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/23/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/23/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/24/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/24/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/25/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/25/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/26/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/26/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/27/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/27/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/28/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/28/avatar.svg"></a>
-<a href="https://opencollective.com/electron-react-boilerplate/sponsor/29/website" target="_blank"><img src="https://opencollective.com/electron-react-boilerplate/sponsor/29/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/0/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/1/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/2/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/3/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/4/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/5/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/6/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/7/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/8/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/9/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/9/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/10/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/10/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/11/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/11/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/12/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/12/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/13/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/13/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/14/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/14/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/15/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/15/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/16/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/16/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/17/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/17/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/18/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/18/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/19/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/19/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/20/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/20/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/21/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/21/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/22/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/22/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/23/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/23/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/24/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/24/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/25/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/25/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/26/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/26/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/27/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/27/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/28/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/28/avatar.svg"></a>
+<a href="https://opencollective.com/odrerir-app/sponsor/29/website" target="_blank"><img src="https://opencollective.com/odrerir-app/sponsor/29/avatar.svg"></a>
 
 ## License
 
-MIT © [C. T. Lin](https://github.com/chentsulin)
+MIT © [Loki Engineering](https://github.com/lokiengineering)
 
-[npm-image]: https://img.shields.io/npm/v/electron-react-boilerplate.svg?style=flat-square
-[github-tag-image]: https://img.shields.io/github/tag/chentsulin/electron-react-boilerplate.svg
-[github-tag-url]: https://github.com/chentsulin/electron-react-boilerplate/releases/latest
-[travis-image]: https://travis-ci.org/chentsulin/electron-react-boilerplate.svg?branch=master
-[travis-url]: https://travis-ci.org/chentsulin/electron-react-boilerplate
-[appveyor-image]: https://ci.appveyor.com/api/projects/status/github/chentsulin/electron-react-boilerplate?svg=true
-[appveyor-url]: https://ci.appveyor.com/project/chentsulin/electron-react-boilerplate/branch/master
-[david_img]: https://img.shields.io/david/chentsulin/electron-react-boilerplate.svg
-[david_site]: https://david-dm.org/chentsulin/electron-react-boilerplate
+[npm-image]: https://img.shields.io/npm/v/odrerir-app.svg?style=flat-square
+[github-tag-image]: https://img.shields.io/github/tag/lokiengineering/odrerir-app.svg
+[github-tag-url]: https://github.com/lokiengineering/odrerir-app/releases/latest
+[travis-image]: https://travis-ci.org/lokiengineering/odrerir-app.svg?branch=master
+[travis-url]: https://travis-ci.org/lokiengineering/odrerir-app
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/github/lokiengineering/odrerir-app?svg=true
+[appveyor-url]: https://ci.appveyor.com/project/lokiengineering/odrerir-app/branch/master
+[david_img]: https://img.shields.io/david/lokiengineering/odrerir-app.svg
+[david_site]: https://david-dm.org/lokiengineering/odrerir-app
