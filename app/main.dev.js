@@ -64,6 +64,8 @@ app.on('ready', async () => {
     show: false,
     width: 1024,
     height: 728
+    , frame: false
+    , titleBarStyle: 'hiddenInset'
   });
 
   mainWindow.loadURL(`file://${__dirname}/app.html`);

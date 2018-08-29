@@ -218,7 +218,9 @@
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-router-redux": "^5.0.0-alpha.6",
+    "recompose": "^0.29.0",
     "redux": "^4.0.0",
+    "redux-actions": "^2.6.1",
     "redux-thunk": "^2.3.0",
     "source-map-support": "^0.5.6"
   },
